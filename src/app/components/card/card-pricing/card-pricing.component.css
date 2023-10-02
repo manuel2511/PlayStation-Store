@@ -1,0 +1,37 @@
+.card-pricing_container{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding-left: 3px;
+}
+.card-pricing_package{
+	font-size: 0.5rem;
+	font-weight: 500;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+.card-pricing_title{
+	font-weight: 500;
+	margin-bottom: 10px;
+	text-transform: capitalize;
+}
+.card-pricing_discount{
+	background-color: black;
+	color: white;
+	padding: 2px 5px 3px 5px;
+	width: 40px;
+	border-radius: 5px;
+	font-size: 0.8rem;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.card-pricing_value{
+	color: #0000007a;
+	font-size: 1.3rem;
+}
+.game-price{
+	margin-right: 5px;
+}
+.game-price-of{
+	text-decoration: line-through;
+}
